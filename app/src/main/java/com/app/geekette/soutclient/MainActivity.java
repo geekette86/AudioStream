@@ -19,7 +19,7 @@ import java.net.UnknownHostException;
 
 public class MainActivity extends Activity {
     private Button start,stop;
-    String hostname ="192.168.1.75";
+    String hostname ="hostip";
     public byte[] buffer;
     public static DatagramSocket socket;
     private int port=1234;
